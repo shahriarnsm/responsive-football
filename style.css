@@ -145,8 +145,8 @@ upcomming section
 }
 .tournament
 {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    flex-direction: column;
     place-items: center;
 }
 .game
@@ -263,6 +263,7 @@ footer{
     .container
     {
         width: 100%;
+        flex-direction: column;
     }
 
     
